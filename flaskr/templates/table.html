@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<title>Knoetic test</title>
+<style>
+  tr:nth-child(even) {
+    background-color: #d6eeee;
+  }
+  tr:hover {
+    background-color: white;
+  }
+
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  .table-wrapper {
+    box-shadow: rgb(217, 217, 217) 0px 1px 8px 0px;
+    margin: 12px;
+    padding: 24px;
+    border-radius: 12px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: ghostwhite;
+  }
+</style>
+
+<header style="margin-bottom: 40px">
+  <h1>🎉 Knoetic test</h1>
+</header>
+
+<!--  -->
+{% for issue in data_issues %}
+<div class="table-wrapper">
+  <h1>{{issue['title']}}</h1>
+  <h3>Total count: {{issue['total_count']}}</h3>
+  <table>
+    <tr>
+      {% for column in issue['columns'] %}
+      <th>
+        <b>{{column}}</b>
+      </th>
+      {% endfor %}
+    </tr>
+
+    {% for row in issue['rows'] %}
+    <tr>
+      {% for column_row in row %}
+      <td>{{column_row}}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endfor %}
