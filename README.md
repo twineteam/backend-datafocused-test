@@ -1,6 +1,6 @@
 # 🎉 Knoetic BE Engineer (Data focused) test
 
-Welcome and congratulations to this round of our BE Engineer test. Both **Backend and SQL** expertise will be tested with an emphasis on the SQL.
+Welcome and congratulations to this round of our BE Engineer test. Both **Python and SQL** expertise will be tested with an emphasis on the SQL.
 
 ---
 
