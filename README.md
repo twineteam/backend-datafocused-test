@@ -45,4 +45,4 @@ flask --app flaskr run --debug
 - Hot reloading is set up
 - Even though we are using [Flask](https://flask.palletsprojects.com/en/2.3.x/), knowledge of the framework is unimportant
 - Feel free to use any SQL editor of your choice. You simply need to connect to our `instance/flaskr.sqlite` DB after intialising the database
-- We have `#TODO` comments marked in `flaskr/dataissues.py` that we will be tackling one by one
+- We have `#TODO` comments marked in `flaskr/solution.py` that we will be tackling one by one

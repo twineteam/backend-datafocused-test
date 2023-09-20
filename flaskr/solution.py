@@ -6,7 +6,7 @@ from flask import (
 
 from flaskr.db import get_db
 
-bp = Blueprint('auth', __name__, url_prefix='/data-issues')
+bp = Blueprint('auth', __name__, url_prefix='/')
 
 
 def sqllite_rows_to_list(values):
@@ -133,7 +133,7 @@ def sql_solution():
 
 
 @bp.route('/', methods=('GET', 'POST'))
-def get_data_issues():
+def get_solution():
 
     return py_solution()
     # return sql_solution()

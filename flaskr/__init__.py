@@ -2,7 +2,7 @@ import os
 
 from flask import Flask
 from . import db
-from . import dataissues
+from . import solution
 
 
 def create_app(test_config=None):
@@ -30,6 +30,6 @@ def create_app(test_config=None):
     db.init_app(app)
 
     # register blueprints
-    app.register_blueprint(dataissues.bp)
+    app.register_blueprint(solution.bp)
 
     return app
