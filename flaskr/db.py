@@ -44,6 +44,14 @@ def init_db():
                        (item["id"], item["firstName"], item["lastName"], item["division"], item["department"]))
             db.commit()
 
+    # insert interviews
+    with open('./mockdata/interviews.json', 'r') as json_file:
+        data = json.load(json_file)
+        for item in data:
+            db.execute("INSERT INTO interviews (interview_id, effective_date, candidate_id, stage) VALUES (?, ?, ?, ?)",
+                       (item["id"], item["effectiveDate"], item["candidateId"], item["stage"]))
+            db.commit()
+
 
 @click.command('init-db')
 def init_db_command():

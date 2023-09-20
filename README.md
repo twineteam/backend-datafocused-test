@@ -22,3 +22,7 @@ flask --app flaskr init-db
 ```
 flask --app flaskr run --debug
 ```
+
+#### **Debugging**
+
+Feel free to use any SQL editor of your choice. You simply need to connect to our `instance/flaskr.sqlite` DB after intialising the database

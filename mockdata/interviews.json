@@ -1,0 +1,99 @@
+[
+  {
+    "id": "p-ixg-NYvN5I5i00WS9he",
+    "effectiveDate": "2023-01-01",
+    "candidateId": "bttuVGj3gFD8aoNl7yh26",
+    "stage": "New lead"
+  },
+  {
+    "id": "dzaMeHuB6Ow_bCmkaZ25l",
+    "effectiveDate": "2023-03-01",
+    "candidateId": "bttuVGj3gFD8aoNl7yh26",
+    "stage": "Responded"
+  },
+  {
+    "id": "pywuDKcXpF60gTus5CLnV",
+    "effectiveDate": "2023-02-03",
+    "candidateId": "bttuVGj3gFD8aoNl7yh26",
+    "stage": "Reached out"
+  },
+  {
+    "id": "5PrcCBEWD7JrzkJrcvbX9",
+    "effectiveDate": "2023-04-03",
+    "candidateId": "bttuVGj3gFD8aoNl7yh26",
+    "stage": "New applicant"
+  },
+  {
+    "id": "1zJ6yaqoZiULjoWI6tosq",
+    "effectiveDate": "2023-06-02",
+    "candidateId": "bttuVGj3gFD8aoNl7yh26",
+    "stage": "Functional Interview"
+  },
+  {
+    "id": "rWrvbzQKcx-313-DYfUPc",
+    "effectiveDate": "2023-05-03",
+    "candidateId": "bttuVGj3gFD8aoNl7yh26",
+    "stage": "Resume Under Review"
+  },
+  {
+    "id": "el7lR8k83pv2m93UuxdFe",
+    "effectiveDate": "2023-03-01",
+    "candidateId": "ByKlXdDAD4L4LhasOMCR5",
+    "stage": "Responded"
+  },
+  {
+    "id": "_LskHGXrblGmBgb7aRhP2",
+    "effectiveDate": "2023-07-01",
+    "candidateId": "bttuVGj3gFD8aoNl7yh26",
+    "stage": "Team Interview"
+  },
+  {
+    "id": "9KB8k9-3c-VbDo_bRXR6P",
+    "effectiveDate": "2023-08-03",
+    "candidateId": "bttuVGj3gFD8aoNl7yh26",
+    "stage": "Offer"
+  },
+  {
+    "id": "yqCBcu5Z0MdrJSX117q-z",
+    "effectiveDate": "2023-01-05",
+    "candidateId": "ByKlXdDAD4L4LhasOMCR5",
+    "stage": "New lead"
+  },
+  {
+    "id": "R2Q0-BlWfdoipEvcOrGD8",
+    "effectiveDate": "2023-02-07",
+    "candidateId": "ByKlXdDAD4L4LhasOMCR5",
+    "stage": "Reached out"
+  },
+
+  {
+    "id": "erTxQ3V6-4LxIZsSndbVq",
+    "effectiveDate": "2023-04-07",
+    "candidateId": "ByKlXdDAD4L4LhasOMCR5",
+    "stage": "New applicant"
+  },
+  {
+    "id": "Dv97z2LpRgGoqbBXnQMUJ",
+    "effectiveDate": "2023-05-07",
+    "candidateId": "ByKlXdDAD4L4LhasOMCR5",
+    "stage": "Resume Under Review"
+  },
+  {
+    "id": "yguz0y4dwtz68IbqHSCsb",
+    "effectiveDate": "2023-07-04",
+    "candidateId": "ByKlXdDAD4L4LhasOMCR5",
+    "stage": "Team Interview"
+  },
+  {
+    "id": "i9ejRRILVveHH7mLAFhtl",
+    "effectiveDate": "2023-08-04",
+    "candidateId": "ByKlXdDAD4L4LhasOMCR5",
+    "stage": "Offer"
+  },
+  {
+    "id": "PlIwiEiuzYiil4yH97f5A",
+    "effectiveDate": "2023-06-02",
+    "candidateId": "ByKlXdDAD4L4LhasOMCR5",
+    "stage": "Functional Interview"
+  }
+]
