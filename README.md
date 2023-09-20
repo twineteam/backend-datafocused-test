@@ -1,8 +1,24 @@
-# Getting started
+# 🎉 Knoetic BE Engineer (Data focused) test
 
-### Set up
+Welcome and congratulations to this round of our BE Engineer test. Both **Backend and SQL** expertise will be tested with an emphasis on the SQL.
 
-Make sure you have pyenv installed. Use `Python 3.10.6`:
+---
+
+### Grading
+
+You will be graded based on the following:
+
+- Code quality
+- Strong understanding and application of Software Engineering principles
+- Collaboration & communication skills
+
+Our ultimate goal is to access how you work day to day, so apply the same seriousness and processes that you would in a real work environment.
+
+---
+
+## Set up instructions
+
+Installing Flask. Make sure you have [pyenv](https://github.com/pyenv/pyenv#installation) installed. Use `Python 3.10.6`:
 
 ```
 pyenv install 3.10.6
@@ -23,6 +39,8 @@ flask --app flaskr init-db
 flask --app flaskr run --debug
 ```
 
-#### **Debugging**
+## The test (useful info)
 
-Feel free to use any SQL editor of your choice. You simply need to connect to our `instance/flaskr.sqlite` DB after intialising the database
+- Google is allowed
+- Hot reloading is set up
+- Feel free to use any SQL editor of your choice. You simply need to connect to our `instance/flaskr.sqlite` DB after intialising the database
